@@ -13,6 +13,9 @@ module "db" {
   password = "${var.DB_PASS}"
   port     = "3306"
 
+  # Change after configuration ## Note
+//  publicly_accessible = true
+
   iam_database_authentication_enabled = true
 
   vpc_security_group_ids = ["${aws_security_group.tier1.id}"]

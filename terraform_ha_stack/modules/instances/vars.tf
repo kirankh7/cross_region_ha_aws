@@ -32,3 +32,5 @@ variable "ALB_SEC_GROUP" {}
 variable "TR_GROUP_NAME" {
   type = "list"
 }
+
+variable "DATABASE_ENDPOINT" {}

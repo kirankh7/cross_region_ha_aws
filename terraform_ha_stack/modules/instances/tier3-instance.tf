@@ -22,7 +22,7 @@ resource "aws_instance" "instance_tier3" {
 }
   provisioner "remote-exec" {
     inline = [
-      "sh /tmp/chef/install.sh",
+      "sh /tmp/chef/install_tier3_nginx.sh",
     ]
 
   connection {
