@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
+
+
+set -ex
+echo "Installing ChefDK...!"
 curl -L https://www.opscode.com/chef/install.sh | sudo bash
 
 # Create chef directory
 dir="/var/chef/cookbooks"
 if [[ ! -e $dir ]]; then
-    mkdir -p $dir
+    sudo mkdir -p $dir
 elif [[ ! -d $dir ]]; then
     echo "$dir already exists but is not a directory" 1>&2
 fi

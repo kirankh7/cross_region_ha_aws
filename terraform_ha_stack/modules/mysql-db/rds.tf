@@ -25,9 +25,9 @@ module "db" {
 
   # Enhanced Monitoring - see example for details on how to create the role
   # by yourself, in case you don't want to create it automatically
-  monitoring_interval = "30"
-  monitoring_role_name = "MyRDSMonitoringRole"
-  create_monitoring_role = true
+//  monitoring_interval = "30"
+//  monitoring_role_name = "MyRDSMonitoringRole"
+//  create_monitoring_role = false
 
   tags = {
     Owner       = "flask"

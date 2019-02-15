@@ -8,7 +8,19 @@ resource "aws_instance" "instance_tier3" {
     Name         = "instance-tier3-${var.ENV}"
     Environmnent = "${var.ENV}"
   }
+  provisioner "file" {
+    # Referencing the template_dir resource ensures that it will be
+    # created or updated before this aws_instance resource is provisioned.
+    source      = "${template_dir.config.destination_dir}"
+    destination = "/tmp/instance_config"
 
+  connection {
+    type     = "ssh"
+    user     = "ec2-user"
+    private_key = "${file("${path.root}/${var.PATH_TO_PRIVATE_KEY}")}"
+
+  }
+  }
   provisioner "file" {
   source      = "${path.module}/scripts/chef"
   destination = "/tmp/chef"
