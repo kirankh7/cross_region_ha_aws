@@ -46,6 +46,11 @@ execute 'install_package' do
   command 'sudo pip3 install -r /var/flask_app/requirements.txt'
 end
 
+execute 'install_package' do
+  command 'sudo cp -a /tmp/chef/terra_templates/config.json /var/flask_app/'
+end
+
+cp -a /tmp/chef/terra_templates/config.json
 # Create dir for logging from supervisor
 directory '/var/log/flaskblog/' do
   owner 'root'

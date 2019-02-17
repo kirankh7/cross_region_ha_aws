@@ -6,11 +6,16 @@
 
 # Update repo at specific interval
 
+
+execute 'install_package' do
+  command 'cp -a /tmp/chef/terra_templates/nginx.conf.erb.tpl /tmp/chef/cookbooks/nginx/templates/nginx.conf.erb'
+end
+
 execute 'sudo yum -y update' do
   action :run
 end
 
-execute 'install_supervisor_package' do
+execute 'install_nginx_package' do
   command 'sudo amazon-linux-extras install nginx1.12'
 end
 
@@ -18,8 +23,11 @@ service 'nginx' do
   action [:enable, :start ]
 end
 
-execute 'install_package' do
-  command 'cp -a /tmp/instance_config/nginx.conf.erb.tpl /tmp/chef/cookbooks/nginx/templates/nginx.conf.erb'
+directory '/etc/nginx/conf.d/' do
+  owner 'root'
+  group 'root'
+  mode '0755'
+  action :create
 end
 
 template '/etc/nginx/nginx.conf' do
@@ -27,8 +35,19 @@ template '/etc/nginx/nginx.conf' do
   owner 'root'
   group 'root'
   mode '0755'
-  notifies :restart, 'service[nginx]', :immediately
 end
+
+
+template '/etc/nginx/conf.d/flaskapp.conf' do
+  source 'flaskapp.conf.erb'
+  owner 'root'
+  group 'root'
+  mode '0755'
+  notifies :restart, 'service[nginx]', :immediately
+  variables(iplist: node['nginx']['flaskips'])
+end
+
+
 
 # package 'Install Apache' do
 #   case node[:platform]

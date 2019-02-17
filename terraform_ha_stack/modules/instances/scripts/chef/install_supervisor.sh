@@ -5,7 +5,8 @@ if [[ ! -f "$SUPER_CONFIG" ]]; then
     sudo easy_install supervisor
     sudo mkdir -p /etc/supervisor/conf.d
     sudo echo_supervisord_conf >  /etc/supervisord.conf
-    sudo echo "files = /etc/supervisor/conf.d/*.conf" >> /etc/supervisord.conf
+    sudo echo "[include]
+files = /etc/supervisor/conf.d/*.conf" >> /etc/supervisord.conf
     sudo cp -a  /tmp/chef/supervisord /usr/lib/systemd/system/supervisord.service
     systemctl daemon-reload
     systemctl enable supervisord
