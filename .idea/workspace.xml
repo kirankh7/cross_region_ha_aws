@@ -2,41 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442af536-a2bc-4c08-b076-72d71610c0ce" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/intute_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/dev/dev.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/dev/provider.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/dev/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/alb/alb.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/alb/outputs.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/alb/s3-logging.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/alb/sec-group.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/alb/target-group.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/alb/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/outputs.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/.idea/scripts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/sec-groups.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/tier2-instance.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/tier3-instance.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/tr-group-attachment.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/mysql-db/rds.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/mysql-db/sec-group.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/mysql-db/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/vpc/sec-groups.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/vpc/vars.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/vpc/vpc.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/prod/prod.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/prod/provider.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/prod/terraform.tfstate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/prod/terraform.tfstate.backup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/prod/vars.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/tr-group-attachment.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/tr-group-attachment.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/prod/terraform.tfstate" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/prod/terraform.tfstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/prod/terraform.tfstate.backup" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/prod/terraform.tfstate.backup" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,39 +18,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="templates.tf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/templates.tf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="28" column="76" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tr-group-attachment.tf" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/tr-group-attachment.tf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+              <caret line="4" column="95" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tier2-instance.tf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/tier2-instance.tf">
+      <file leaf-file-name="cloudinit.tf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/cloudinit.tf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="90">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tier3-instance.tf" pinned="false" current-in-tab="true">
+      <file leaf-file-name="init.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/init.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="install_tier3_nginx.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install_tier3_nginx.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nginx.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/nginx/attributes/nginx.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flaskapp.conf.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/nginx/templates/flaskapp.conf.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="route.tf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/route53/route.tf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/init.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="44" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tier3-instance.tf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/tier3-instance.tf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="809">
+              <caret line="49" column="76" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="76" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="install.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install.sh">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -93,12 +126,33 @@
       <find>[0]</find>
       <find>mykey</find>
       <find>attache_tier3</find>
+      <find>ENHANCED_MONITORING</find>
+      <find>ec2-user</find>
+      <find>tier2</find>
+      <find>yum</find>
+      <find>centos</find>
+      <find>gunicorn</find>
+      <find>backend_port</find>
+      <find>flask-app-tg</find>
+      <find>target_groups</find>
+      <find>set_identifier</find>
+      <find>instance_tier3</find>
+      <find>tier2_instance_id</find>
+      <find>tier3_instance_id</find>
+      <find>modu</find>
     </findStrings>
+    <replaceStrings>
+      <replace>centos</replace>
+      <replace>ubuntu</replace>
+      <replace>ec2-user</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/demo-18b/modules</dir>
-      <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/demo-18b/prod</dir>
       <dir>$PROJECT_DIR$/demo-18b</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/terraform_ha_stack</dir>
+      <dir>$PROJECT_DIR$/terraform_ha_stack/modules/instances</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -107,38 +161,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo-18b/modules/vpc/var.tf" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/instances/var.tf" />
-        <option value="$PROJECT_DIR$/demo-18b/prod/terraform.tfvars" />
-        <option value="$PROJECT_DIR$/demo-18b/prod/provider.tf" />
-        <option value="$PROJECT_DIR$/demo-18b/prod/vars.tf" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/vpc/vpc.tf" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/alb/target-group.tf" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/mysql-db/rds.tf" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/alb/s3-logging.tf" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/instances/scripts/chef-config.rb" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/alb/sec-group.tf" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/alb/vars.tf" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/instances/instance.tf" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/instances/outputs.tf" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/instances/sec-groups.tf" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/mysql-db/vars.tf" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/mysql-db/sec-group.tf" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/instances/scripts/tr-group-attachment.tf" />
-        <option value="$PROJECT_DIR$/demo-18b/prod/prod.tf" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/instances/vars.tf" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/instances/scripts/configure-app/metadata.rb" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/instances/scripts/configure-app/recipes/default.rb" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/instances/scripts/configure-app/solo.rb" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/instances/tier3-instance.tf" />
-        <option value="$PROJECT_DIR$/demo-18b/modules/instances/tier2-instance.tf" />
         <option value="$PROJECT_DIR$/demo-18b/modules/alb/alb.tf" />
         <option value="$PROJECT_DIR$/demo-18b/modules/instances/tr-group-attachment.tf" />
         <option value="$PROJECT_DIR$/demo-18b/modules/alb/outputs.tf" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/chef-app-config/templates/nginx.conf.erb" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/mysql-db/vars.tf" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/node.json" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/ami_type.tf" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/solo.rb" />
         <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install.sh" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install_tier3_niginx.rb" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install_tier3_niginx.sh" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/nginx.json" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/prod/run_deploy.sh" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/nginx/templates/nginx.conf.erb.tpl" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/nginx/recipes/default.rb" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/configure-app/templates/install_supervisor.sh" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/terraform-templates/nginx.conf.erb" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/configure-app/recipes/default.rb" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/ami_type.tf" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/supervisord" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/configure-app/templates/supervisor.conf.erb" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install_supervisor.sh" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/alb/alb.tf" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/alb/target_troup.tf" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/route53/vars.tf" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/alb/outputs.tf" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/mysql-db/rds.tf" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/mysql-db/outputs.tf" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/prod/vars.tf" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/prod/terraform.tfvars" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/instance_config_templates/config.json" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install_tier2.sh" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/vars.tf" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/module_instance/instance.tf" />
         <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/tier2-instance.tf" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/tier4dupe.tf" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/outputs.tf" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/instance_config_templates/nginx.conf.erb.tpl" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/templates.tf" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/prod/prod.tf" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/instance_config_templates/default.rb" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/route53/route.tf" />
         <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/tier3-instance.tf" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/init.tpl" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/init.cfg" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/nginx/templates/flaskapp.conf.erb" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/cloudinit.tf" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/nginx/attributes/nginx.rb" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install_tier3_nginx.sh" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/tr-group-attachment.tf" />
       </list>
     </option>
   </component>
@@ -152,10 +225,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-48" />
-    <option name="y" value="-1018" />
-    <option name="width" value="1440" />
-    <option name="height" value="873" />
+    <option name="x" value="-227" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -165,7 +238,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,22 +268,19 @@
               <item name="intute_project" type="462c0819:PsiDirectoryNode" />
               <item name="terraform_ha_stack" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="instances" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="route53" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="intute_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="intute_project" type="462c0819:PsiDirectoryNode" />
               <item name="terraform_ha_stack" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="instances" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="chef" type="462c0819:PsiDirectoryNode" />
+              <item name="prod" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,8 +291,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/terraform_ha_stack/modules/module_instance" />
+      <recent name="$PROJECT_DIR$/terraform_ha_stack/prod" />
+      <recent name="$PROJECT_DIR$/terraform_ha_stack/modules/terraform-templates" />
+      <recent name="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/demo-18b/modules/instances" />
+      <recent name="$PROJECT_DIR$/terraform_ha_stack/modules/instances/instance_config_templates" />
+      <recent name="$PROJECT_DIR$/terraform_ha_stack/modules/instances" />
+      <recent name="$PROJECT_DIR$/terraform_ha_stack/modules" />
+      <recent name="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef" />
+      <recent name="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -262,14 +341,14 @@
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Python Console" order="5" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.82382894" visible="true" weight="0.19275825" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.810093" visible="true" weight="0.22470714" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32934928" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info id="Favorites" order="0" sideWeight="0.17617108" side_tool="true" visible="true" weight="0.19275825" />
+      <window_info id="Favorites" order="0" sideWeight="0.18990704" side_tool="true" weight="0.29470673" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
@@ -285,277 +364,328 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/instances/scripts/chef-app-config/chefignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/instances/scripts/chef-app-config/recipes/default.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/instances/scripts/chef-app-config/metadata.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/instances/scripts/chef-app-config/chefignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/instances/scripts/chef-app-config/metadata.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/instances/scripts/chef-app-config/recipes/default.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18/vpc.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/vpc/sec-groups.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-demo/vars.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-demo/provider.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-demo/key.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-demo/ecs.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/vpc/vars.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/mysql-db/rds.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/alb/s3-logging.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-demo/vpc.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/alb/sec-group.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/alb/vars.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/instances/sec-groups.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="98" column="42" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/mysql-db/vars.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/mysql-db/sec-group.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/vpc/vpc.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" selection-start-line="19" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/alb/target-group.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/prod/vars.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/prod/terraform.tfvars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/prod/mykey.pub">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/prod/mykey">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/prod/.terraform/modules/a85bbd36816231256e033d4873dbe334/instance.tf" />
-    <entry file="file://$PROJECT_DIR$/demo-18b/prod/terraform.tfstate.backup">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/prod/terraform.tfstate">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/prod/provider.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/instances/vars.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/instances/scripts/chef-config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/instances/scripts/chef-app-config/metadata.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/instances/scripts/chef-app-config/recipes/default.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/instances/scripts/chef-app-config/chefignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/instances/scripts/configure-app/solo.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/instances/tier3-instance.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/instances/tier2-instance.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/alb/alb.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/instances/outputs.tf">
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/nginx/templates/1nginx.conf.erb.tpl" />
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/configure-app/recipes/default.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/alb/outputs.tf">
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/ami_type.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/modules/instances/tr-group-attachment.tf">
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/route53/outputs.tf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/configure-app/templates/supervisor.conf.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        <state relative-caret-position="36">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-18b/prod/prod.tf">
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install_supervisor.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/prod/provider.tf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/prod/.terraform/modules/13d85abd2b4c303dfe5f140dba058222/terraform-aws-modules-terraform-aws-alb-dfdc6e4/alb_w_logs.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/alb/vars.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/prod/.terraform/modules/13d85abd2b4c303dfe5f140dba058222/terraform-aws-modules-terraform-aws-alb-dfdc6e4/alb_no_logs.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/alb/alb.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="148" selection-start-line="13" selection-start-column="148" selection-end-line="13" selection-end-column="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/alb/target_troup.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/route53/vars.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/alb/outputs.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/prod/instance_config/nginx.conf.erb.tpl" />
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/nginx/recipes/default.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/mysql-db/rds.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/prod/terraform.tfstate">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <caret line="313" column="17" selection-start-line="313" selection-start-column="17" selection-end-line="313" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/prod/terraform.tfvars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/prod/vars.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install_tier2.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/mysql-db/outputs.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/vars.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/module_instance/sec-groups.tf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/module_instance/instance.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="98" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/module_instance/vars.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/tier4-dupe.tf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/tier4dupe.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="37" column="16" selection-start-column="2" selection-end-line="55" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/node.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/nginx.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install.sh">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/tier2-instance.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="30" />
+        <state>
+          <caret column="39" selection-start-column="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/configure-app/templates/nginx.conf.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/supervisord">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/solo.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="56" selection-start-column="56" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/instance_config_templates/nginx.conf.erb.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/instance_config_templates/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/outputs.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/prod/prod.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/ruby_attr.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/instance_config_templates/default.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/route53/route.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/tier3-instance.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="809">
+          <caret line="49" column="76" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/init.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/init.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/nginx/templates/server.conf.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/nginx/templates/flaskapp.conf.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/cloudinit.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/nginx/attributes/nginx.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install_tier3_nginx.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/templates.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="76" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/tr-group-attachment.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="95" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
         </state>
       </provider>
     </entry>
