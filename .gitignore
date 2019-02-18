@@ -1,6 +1,6 @@
 *.tfvars
+*.tfvars.backup
 mykey*
 .terraform
-module-demo
-demo-18
-demo-18b
+.gitignore
+.idea

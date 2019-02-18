@@ -49,6 +49,7 @@ resource "aws_instance" "instance_tier2" {
   tags {
     Name= "${var.TIER_2_INSTANCE_NAME}-${count.index+1}"
   }
+//  iam_instance_profile = "${aws_iam_instance_profile.read_access.name}"
 }
 
 resource "aws_key_pair" "my_pub_keypair" {

@@ -1,6 +1,6 @@
 module "alb" {
   source                        = "terraform-aws-modules/alb/aws"
-  load_balancer_name            = "my-app-alb"
+  load_balancer_name            = "my-app-alb-${terraform.workspace}"
   security_groups               = ["${aws_security_group.allow-http.id}", "${aws_security_group.allow-group.id}"]
   log_bucket_name               = "${aws_s3_bucket.alb_bucket.id}"
   log_location_prefix           = "my-app-alb-logs"

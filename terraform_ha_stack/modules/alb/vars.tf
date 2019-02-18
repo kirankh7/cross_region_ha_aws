@@ -17,3 +17,5 @@ variable "LOG_BUCKET" {}
 variable "TARGET_GROUP_NAME" {
   default = "flask-app-tg"
 }
+
+variable "LOG_REGION_ID" {}

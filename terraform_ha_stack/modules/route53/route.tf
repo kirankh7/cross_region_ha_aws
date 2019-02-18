@@ -9,7 +9,7 @@ resource "aws_route53_record" "reg1" {
   type    = "A"
 
   weighted_routing_policy {
-    weight = 10
+    weight = "${var.REGION_WAIT}"
   }
   set_identifier = "${var.AWS_REGION}"
 
@@ -21,14 +21,14 @@ resource "aws_route53_record" "reg1" {
 }
 
 # Change it to 200 OK later
-resource "null_resource" "example" {
-  depends_on = []
-  provisioner "local-exec" {
-    command = "sleep 420; python -mwebbrowser -t http://${aws_route53_record.reg1.name}.thebetterengineers.com"
-//    interpreter = ["python"]
-  }
-}
-
+//resource "null_resource" "example" {
+//  depends_on = []
+//  provisioner "local-exec" {
+//    command = "sleep 420; python -mwebbrowser -t http://${aws_route53_record.reg1.name}.thebetterengineers.com"
+////    interpreter = ["python"]
+//  }
+//}
+//
 //resource "aws_route53_record" "reg2" {
 //  zone_id = "${data.aws_route53_zone.selected.zone_id}"
 //  name    = "flaskapp"

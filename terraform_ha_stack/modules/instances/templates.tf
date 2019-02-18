@@ -5,6 +5,7 @@ resource "template_dir" "config" {
   vars = {
 //    tier2_private_ip = "${join("",aws_instance.instance_tier2.*.private_ip)}"
     database_endpoint = "${var.DB_ENDPOINT}"
+    database_endpoint = "sample"
     database_name = "${var.DB_NAME}"
     database_user_name = "${var.DB_USERNAME}"
     database_password = "${var.DB_PASSWORD}"

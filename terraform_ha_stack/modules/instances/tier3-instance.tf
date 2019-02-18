@@ -16,21 +16,10 @@ resource "aws_instance" "instance_tier3" {
 
   }
 
-//  provisioner "file" {
-//    source = "${data.template_file.init.rendered}"
-//    destination = "/var/kiran"
-//  }
-//  provisioner "local-exec" {
-//    command = 'echo "${join(",", aws_instance.instance_tier2.*.private_ip)}" > /newfileip'
-//  }
-
   provisioner "file" {
-    # Referencing the template_dir resource ensures that it will be
-    # created or updated before this aws_instance resource is provisioned.
     source      = "${template_dir.config.destination_dir}"
     destination = "/tmp/instance_config"
   }
-
 
   provisioner "file" {
   source      = "${path.module}/scripts/chef"
