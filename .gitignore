@@ -1,0 +1,10 @@
+*.tfvars
+*.tfvars.backup
+mykey
+.terraform
+.idea/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate
+terraform.tfstate.d
+demo-18b
