@@ -2,43 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442af536-a2bc-4c08-b076-72d71610c0ce" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/alb/target_troup.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/cloudinit.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/init.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/instance_config_templates/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/nginx/templates/flaskapp.conf.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/ruby_attr.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/init.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/module_instance/instance.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/module_instance/sec-groups.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/module_instance/vars.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/alb/alb.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/alb/alb.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/alb/outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/alb/outputs.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/instance_config_templates/nginx.conf.erb.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/instance_config_templates/nginx.conf.erb.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/outputs.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/configure-app/recipes/default.rb" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/configure-app/recipes/default.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/nginx/recipes/default.rb" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/nginx/recipes/default.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/nginx/templates/1nginx.conf.erb.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/nginx/templates/nginx.conf.erb" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/nginx/templates/nginx.conf.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install_supervisor.sh" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install_supervisor.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install_tier2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install_tier2.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install_tier3_nginx.sh" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install_tier3_nginx.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/templates.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/templates.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/tier2-instance.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/tier2-instance.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/tier3-instance.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/tier3-instance.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/tr-group-attachment.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/tr-group-attachment.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/vars.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/instances/vars.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/mysql-db/outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/mysql-db/outputs.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/mysql-db/rds.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/mysql-db/rds.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/route53/route.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/route53/route.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/modules/route53/vars.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/modules/route53/vars.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/prod/.terraform.tfstate.lock.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/prod/prod.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/prod/prod.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/terraform_ha_stack/prod/terraform.tfstate" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/prod/terraform.tfstate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/terraform_ha_stack/prod/terraform.tfstate.backup" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/prod/terraform.tfstate.backup" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terraform_ha_stack/prod/vars.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform_ha_stack/prod/vars.tf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,6 +27,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="tr-group-attachment.tf" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/tr-group-attachment.tf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="95" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="cloudinit.tf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/cloudinit.tf">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="install_tier3_nginx.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="install_tier3_nginx.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install_tier3_nginx.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -225,7 +200,6 @@
         <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/tier4dupe.tf" />
         <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/outputs.tf" />
         <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/instance_config_templates/nginx.conf.erb.tpl" />
-        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/tr-group-attachment.tf" />
         <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/templates.tf" />
         <option value="$PROJECT_DIR$/terraform_ha_stack/prod/prod.tf" />
         <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/instance_config_templates/default.rb" />
@@ -237,6 +211,7 @@
         <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/cloudinit.tf" />
         <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/nginx/attributes/nginx.rb" />
         <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/install_tier3_nginx.sh" />
+        <option value="$PROJECT_DIR$/terraform_ha_stack/modules/instances/tr-group-attachment.tf" />
       </list>
     </option>
   </component>
@@ -287,56 +262,6 @@
               <item name="terraform_ha_stack" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="instances" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intute_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intute_project" type="462c0819:PsiDirectoryNode" />
-              <item name="terraform_ha_stack" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="instances" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intute_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intute_project" type="462c0819:PsiDirectoryNode" />
-              <item name="terraform_ha_stack" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="instances" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="chef" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intute_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intute_project" type="462c0819:PsiDirectoryNode" />
-              <item name="terraform_ha_stack" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="instances" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="chef" type="462c0819:PsiDirectoryNode" />
-              <item name="cookbooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intute_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intute_project" type="462c0819:PsiDirectoryNode" />
-              <item name="terraform_ha_stack" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="instances" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="chef" type="462c0819:PsiDirectoryNode" />
-              <item name="cookbooks" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intute_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intute_project" type="462c0819:PsiDirectoryNode" />
-              <item name="terraform_ha_stack" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="instances" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="chef" type="462c0819:PsiDirectoryNode" />
-              <item name="cookbooks" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
-              <item name="attributes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="intute_project" type="b2602c69:ProjectViewProjectNode" />
@@ -663,13 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/tr-group-attachment.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/outputs.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -729,13 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/templates.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="76" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/scripts/chef/cookbooks/nginx/templates/flaskapp.conf.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -761,6 +672,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/templates.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="76" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terraform_ha_stack/modules/instances/tr-group-attachment.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="95" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
         </state>
       </provider>
     </entry>
