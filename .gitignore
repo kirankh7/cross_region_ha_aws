@@ -3,4 +3,8 @@
 mykey*
 .terraform
 .gitignore
-.idea
+.idea/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate
+terraform.tfstate.d

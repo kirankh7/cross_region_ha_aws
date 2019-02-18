@@ -1,9 +1,9 @@
 module "db" {
   source = "terraform-aws-modules/rds/aws"
 
-  identifier = "flaskdb"
+  identifier = "flaskdb-repl"
+
   replicate_source_db = "${var.REPL_SRC_DB}"
-  apply_immediately = true
 
   engine            = "mysql"
   engine_version    = "5.7.23"

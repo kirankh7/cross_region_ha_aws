@@ -7,16 +7,17 @@ module "main-vpc" {
   PUBLIC_SUNET = ["172.0.101.0/24", "172.0.102.0/24", "172.0.103.0/24"]
 }
 
-//module "database" {
-//  source = "../modules/mysql-db"
-//  ENV = "prod"
-//  VPC_ID = "${module.main-vpc.vpc_id}"
-//  DB_NAME = "flaskdb"
-//  DB_USER = "pipuser"
-//  DB_PASS = "PiPU12323%%!123"
-//  PRIVATE_SUBNETS = ["${module.main-vpc.private_subnets}"]
-//  ALLOW_TIER2 = "${module.instances.tier2_sec_group}"
-//}
+module "database" {
+  source = "../modules/mysql-db"
+  ENV = "prod"
+  VPC_ID = "${module.main-vpc.vpc_id}"
+  DB_NAME = "flaskdb"
+  DB_USER = "pipuser"
+  DB_PASS = "PiPU12323%%!123"
+  PRIVATE_SUBNETS = ["${module.main-vpc.private_subnets}"]
+  ALLOW_TIER2 = "${module.instances.tier2_sec_group}"
+  REPL_SRC_DB = "arn:aws:rds:eu-west-1:352990902149:db:flaskdb"  ## Replicate soruceDB load as enviroment variable
+}
 
 module "alb" {
   source = "../modules/alb"
@@ -38,7 +39,7 @@ module "instances" {
   ALB_SEC_GROUP = "${module.alb.allow-elb-traffic}"
   AWS_REGION = "${terraform.workspace}"
   TR_GROUP_NAME = ["${module.alb.target_group_name}"]
-//  DB_ENDPOINT = "${module.database.db_connection_enpoint}"
+  DB_ENDPOINT = "${module.database.db_connection_enpoint}"
   DB_NAME = "${var.DB_NAME}"
   DB_USERNAME = "${var.DB_USER}"
   DB_PASSWORD = "${var.DB_PASS}"

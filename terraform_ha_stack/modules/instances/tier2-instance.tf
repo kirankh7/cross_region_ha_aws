@@ -5,6 +5,11 @@ resource "aws_instance" "instance_tier2" {
   subnet_id = "${element(var.PUBLIC_SUBNETS,count.index)}"
   vpc_security_group_ids = ["${aws_security_group.allow-ssh.id}","${aws_security_group.tier2.id}"]
   key_name = "${aws_key_pair.my_pub_keypair.key_name}"
+
+  # Customs
+//  user_data = "${data.template_cloudinit_config.cloudinit-example.rendered}"
+  iam_instance_profile = "${aws_iam_instance_profile.reader_profile.name}"
+
   tags {
     Name         = "instance-tier2-${var.ENV}"
     Environmnent = "${var.ENV}"
@@ -49,7 +54,6 @@ resource "aws_instance" "instance_tier2" {
   tags {
     Name= "${var.TIER_2_INSTANCE_NAME}-${count.index+1}"
   }
-//  iam_instance_profile = "${aws_iam_instance_profile.read_access.name}"
 }
 
 resource "aws_key_pair" "my_pub_keypair" {

@@ -16,6 +16,7 @@ module "database" {
   DB_PASS = "PiPU12323%%!123"
   PRIVATE_SUBNETS = ["${module.main-vpc.private_subnets}"]
   ALLOW_TIER2 = "${module.instances.tier2_sec_group}"
+  REPL_SRC_DB = "" # try passing null & that way you dont have to duplicate db
 }
 
 module "alb" {

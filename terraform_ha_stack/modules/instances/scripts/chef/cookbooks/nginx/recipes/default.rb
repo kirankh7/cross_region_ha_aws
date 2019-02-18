@@ -34,7 +34,7 @@ template '/etc/nginx/nginx.conf' do
   source 'nginx.conf.erb'
   owner 'root'
   group 'root'
-  mode '0755'
+  mode '0644'
 end
 
 
@@ -42,9 +42,9 @@ template '/etc/nginx/conf.d/flaskapp.conf' do
   source 'flaskapp.conf.erb'
   owner 'root'
   group 'root'
-  mode '0755'
-  notifies :restart, 'service[nginx]', :immediately
+  mode '0644'
   variables(iplist: node['nginx']['flaskips'])
+  notifies :restart, 'service[nginx]', :immediately
 end
 
 
