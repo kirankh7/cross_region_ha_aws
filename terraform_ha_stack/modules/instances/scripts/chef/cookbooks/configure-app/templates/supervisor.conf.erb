@@ -1,6 +1,6 @@
 [program:flaskapp]
 directory=/var/flask_app
-command=/usr/local/bin/gunicorn -w 3 app:app --bind 0.0.0.0
+command=/usr/local/bin/gunicorn -w 3 run:app --bind 0.0.0.0
 user=root
 autostart=true
 autorestart=true

@@ -1,0 +1,6 @@
+{
+  "DB_ENDPOINT": "flaskdb.cgmqlkz9kriq.us-east-1.rds.amazonaws.com:3306",
+  "DB_NAME": "flaskdb",
+  "DB_USERNAME": "pipuser",
+  "DB_PASSWORD": "Simplepass123"
+}

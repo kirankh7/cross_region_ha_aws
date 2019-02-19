@@ -22,6 +22,14 @@ package 'git' do
   action :install
 end
 
+execute 'sudo yum -y update' do
+  action :run
+end
+
+package %w(mysql-devel gcc  python3-devel)  do
+  action :install
+end
+
 
 execute 'install_supervisor_package' do
   command 'sh /tmp/chef/install_supervisor.sh'
@@ -37,7 +45,7 @@ end
 
 # pull your app from git.
 git '/var/flask_app' do
-  repository 'https://github.com/kirankh7/disaster_flask_app.git'
+  repository 'https://github.com/kirankh7/clean_flask_app.git'
   revision 'master'
   action :sync
 end
@@ -48,6 +56,11 @@ end
 
 execute 'install_package' do
   command 'sudo cp -a /tmp/chef/terra_templates/config.json /var/flask_app/'
+end
+
+execute 'install_package' do
+  command 'cd /var/flask_app && python3 -m flask db init && python3 -m flask db migrate && python3 -m flask db upgrade'
+  ignore_failure true
 end
 
 
